@@ -1,0 +1,89 @@
+/*
+Name: Soundharya P
+Course: CS412
+Assignment: Project 2
+*/
+
+
+h1.RESUME {
+    font-size: 1.5cm;
+}
+
+h2.BIO {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.CAREER {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.EDUCATION {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.SKILLS {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.HOBBIES {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.ADDRESS {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.CONTACT {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2.LANGUAGES {
+    border-color:violet;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.Nav{
+    background-color: transparent;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 0.8cm;
+}
+
+div
+{
+    width: auto;
+}
+
+/* Button */
+.go-top{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    background-color: var(--secCol);
+    color: #fffefe;
+    border: 2px solid var(--primcol);
+    border-radius: 7px;
+    box-shadow: 7px 7px 12px -7px rgba(0, 0, 8, 0.4);
+    opacity: 0;
+    transition: 0.7s;
+}
+.show-top-btn {
+    opacity: 1;
+}
+.go-top:focus {
+    outline: none;
+}
+.go-top:hover {
+    background-color: var();
+}
